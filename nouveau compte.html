@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <title>nom du reseau social</title>
+</head>
+
+<body>
+    <form method="POST" action="traitement.php">
+        <h1>
+            Merci de bien vouloir créer un nouveau compte
+        </h1>
+        <p>
+            <label for="name">Votre Nom</label> : <input type="text" name="name" id="name" placeholder="Ngouem" />
+        </p>
+        <p>
+            <label for="surname">Votre Prénom</label> : <input type="text" name="surname" id="surname" placeholder="herve" />
+        </p>
+        <p>
+            <label for="pseudo">Votre pseudo</label> : <input type="text" name="pseudo" id="pseudo" placeholder="VirusInfo" />
+        </p>
+        <p>
+            <label for="date">Votre date de naissance</label> : <input type="date" name="date" id="date" placeholder="" />
+        </p>
+        <p>
+            <label for="lieu">Votre Lieu de naissance</label> : <input type="text" name="lieu" id="lieu" placeholder="Sombo-chefferie" />
+        </p>
+        <p>
+            <label for="number">Votre Numéro de Téléphone</label> : <input type="tel" name="number" id="number" placeholder="" />
+        </p>
+        <p>
+            <label for="email">Votre E-mail</label> : <input type="email" name="email" id="email" placeholder="itoherve@yahoo.com" />
+        </p>
+        <p>
+            <label for="pass">Votre Mot de passe</label> : <input type="password" name="pass" id="pass" placeholder="" />
+        </p>
+        <p>
+            <label for="pass">confirmer Mot de passe</label> : <input type="password" name="pass" id="pass" placeholder="" />
+        </p>
+        <p>
+            <input type="checkbox" name="case" id="case" /><label for="case">J'ai lu et accepte tous les termes de la licence, et respecte les termes du contrat.</label>
+        </p>
+        <p>
+        <input type="submit" name="validez" id="validez" size="35" />
+        </p>
+    </form>
+</body>
